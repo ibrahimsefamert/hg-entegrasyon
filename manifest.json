@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Hızla Gel - Paket Entegrasyonu",
+  "version": "1.0",
+  "description": "Hızla Gel Şirketler Grubu adına Sefa MERT tarafından oluşturulmuştur. Her hakkı saklıdır.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://hizlagel.com/*",
+    "https://hizlagel.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://hizlagel.com/*",
+        "https://hizlagel.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Hızla Gel",
+    "default_popup": "popup.html",
+    "default_icon": "images/logo.png"
+  },
+  "icons": {
+    "16": "images/logo.png",
+    "32": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/logo.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

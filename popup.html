@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kurulum Tamamlandı | Hızla Gel</title>
+  <style>
+    /* Tüm sayfayı tam ekran flex konteyner yap */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #111;
+      color: #fdf200;
+      font-family: system-ui, sans-serif;
+    }
+
+    /* İçerik kutusu */
+    .container {
+      text-align: center;
+      padding: 2rem;
+      max-width: 360px;
+      width: 90%;
+    }
+
+    .logo img {
+      width: 500px;   /* Burayı istediğin kadar büyütebilirsin */
+      margin-bottom: 1rem;
+    }
+
+    .icon-check {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 1rem;
+      fill: #fdf200;
+      animation: pop 0.4s ease-out;
+    }
+    @keyframes pop {
+      0%   { transform: scale(0.5); opacity: 0; }
+      60%  { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    .heading {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+
+    .message {
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #fdf200;
+      color: #111;
+      padding: 0.65rem 1.4rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e6db00;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+    </div>
+    <svg class="icon-check" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" stroke="#fdf200" stroke-width="4" fill="none"/>
+      <path d="M18 34 L28 44 L46 22" stroke="#fdf200" stroke-width="4"
+            fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h1 class="heading">Kurulum Tamamlandı</h1>
+    <p class="message">
+      Eklenti başarıyla yüklendi.<br>
+      Artık Hızla Gel paket entegrasyonunu kullanabilirsin.
+    </p>
+    <a href="https://hizlagel.com" class="btn">Ana Sayfaya Dön</a>
+    <div class="footer">© 2025 Hızla Gel Şirketler Grubu</div>
+  </div>
+</body>
+</html>
