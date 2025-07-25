@@ -7,21 +7,11 @@
 
 ---
 
-## 📸 Önizleme
-
-<p align="center">
-  <img src="./assets/screenshot-popup.png" alt="Popup Önizleme" width="320" style="border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.4)"/>
-</p>
-
----
-
 ## ✨ Özellikler
 
 - **Hızlı Kurulum** – Tek tıkla yükleyin, anında kullanmaya başlayın.  
 - **Minimal Tasarım** – Siyah & sarı kurumsal tema, göz yormayan arayüz.  
-- **Otomatik Sipariş Aktarım** – “Paket Oluştur” butonuna basın, geri kalana eklenti bakar.  
 - **Tam Mobil/Dekstop Uyumluluk** – Hem geniş ekran hem küçük popup’ta kusursuz görünüm.  
-- **Açık Kaynak & MIT Lisanslı** – Dilediğiniz gibi inceleyin, geliştirin ve dağıtın.
 
 ---
 
